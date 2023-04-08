@@ -1,6 +1,7 @@
 # Data Structures and Algorithms
 
 ### **Table of Contents:**
-| class # |      Link          |
-|:------:|:-----------------:|
-|   1    |  [Code Challenge: c1](./array_reverse/README.md)   |
+| Class  | Link |
+| :----: | :--- |
+| 1 | [Code Challenge: Array Reverse](./array_reverse/README.md) |
+| 2 | [Code Challenge: Array Insert Shift](./array-insert-shift/README.md) | 
