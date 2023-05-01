@@ -10,3 +10,4 @@
 | 4 | [Code Challenge: Linked list](/linked_list/README.md) |
 | 5 | [Code Challenge: Linked list insertions](/linked_list_insertion/README.md) |
 | 6 | [Code Challenge: value from the end](./value_from_the_end/README.md) |
+| 7 | [Code Challenge: zip two linked lists](/Zip-two-linked-lists/README.md) |
