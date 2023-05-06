@@ -4,6 +4,7 @@ Implement a Stack and a Queue data structure using a Linked List.
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
+![stack-and-queue](cc10.png)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
