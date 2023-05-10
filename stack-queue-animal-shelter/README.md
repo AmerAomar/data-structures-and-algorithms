@@ -5,7 +5,7 @@ The shelter operates using a first-in, first-out approach.
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-on process
+![queue](cc12.png)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->

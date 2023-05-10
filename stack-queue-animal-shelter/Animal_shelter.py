@@ -9,7 +9,7 @@ class AnimalShelter:
         if animal.species == "dog":
             self.dogs.append(animal)
 
-        else:
+        elif animal.species == "cat":
             self.cats.append(animal)    
 
 
