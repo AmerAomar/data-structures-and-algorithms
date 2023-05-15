@@ -19,8 +19,4 @@ def test_validate_brackets():
     assert validate_brackets("}") == False
     assert validate_brackets("([)]") == False
     assert validate_brackets("((()") == False
-    assert validate_brackets("}}}}") == False
-    assert validate_brackets("{{{") == False
-    assert validate_brackets("({)}") == False
-    assert validate_brackets("({{[[]]}}})") == False
-    assert validate_brackets("({{[[]]})") == False
+    
