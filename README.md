@@ -12,3 +12,4 @@
 | 6 | [Code Challenge: value from the end](./value_from_the_end/README.md) |
 | 7 | [Code Challenge: zip two linked lists](/Zip-two-linked-lists/README.md) |
 | 12 | [Code Challenge: Animal shelter](/stack-queue-animal-shelter/README.md) |
+| 13 | [Code Challenge: stack queue brackets](/stack-queue-brackets/README.md) |
