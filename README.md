@@ -13,3 +13,4 @@
 | 7 | [Code Challenge: zip two linked lists](/Zip-two-linked-lists/README.md) |
 | 12 | [Code Challenge: Animal shelter](/stack-queue-animal-shelter/README.md) |
 | 13 | [Code Challenge: stack queue brackets](/stack-queue-brackets/README.md) |
+| 16 | [maximum value on tree](./tree-max/README.md) |
