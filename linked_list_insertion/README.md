@@ -10,18 +10,13 @@ Extend a Linked List to allow various insertion methods.
 
 ***Time -->***
 
-
 **append O(n)** : because it may need to traverse the entire list to find the last node.
 
 **insert_before O(n)**: because in the worst case they may need to traverse the entire list to find the node with the given value.
 
 **insert_after  O(n)**:because in the worst case they may need to traverse the entire list to find the node with the given value.
 
-
 ***Space -->*** O(n) because the class stores a reference to the head node, and each node in the list stores a reference to the next node.
-
-
-
 
 ### Solution
 
