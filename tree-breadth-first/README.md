@@ -3,6 +3,7 @@
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
+![whiteboard](cc17.png)
 
 ## Approach & Efficiency
 
