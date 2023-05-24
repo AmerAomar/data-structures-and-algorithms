@@ -10,17 +10,12 @@
 
 ***Time -->***
 
-
 **add() O(n)** : because the method must traverse the entire linked list to find the last node and add a new node after it.
 
 **kth_from_end() O(n)**: because the method must first traverse the linked list to find the kth node from the beginning,Then, it must traverse the remaining nodes in the linked list to find the kth node from the end. Therefore, the total time complexity is O(n+n) = O(2n) = O(n).
 
-
 ***Space -->***
  O(n) because the class stores a reference to the head node, and each node in the linked list stores a reference to the next node.
-
-
-
 
 ### Solution
 

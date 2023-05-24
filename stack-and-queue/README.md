@@ -36,7 +36,7 @@ class Node :
        
 ```
 
-### Stack
+ Stack
 
 ```python
 from node import Node
@@ -91,8 +91,6 @@ class Stack:
             return True
 
 ```
-
-### Queue
 
 ```python
 from node import Node
