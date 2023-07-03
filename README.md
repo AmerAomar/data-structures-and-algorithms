@@ -15,3 +15,4 @@
 | 13 | [Code Challenge: stack queue brackets](/stack-queue-brackets/README.md) |
 | 16 | [maximum value on tree](./tree-max/README.md) |
 | 17 | [tree breadth first](./tree-breadth-first/README.md) |
+| 18 | [repeated hash table](./tree-breadth-first/README.md) |
