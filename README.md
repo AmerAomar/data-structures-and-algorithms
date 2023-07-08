@@ -16,3 +16,4 @@
 | 16 | [maximum value on tree](./tree-max/README.md) |
 | 17 | [tree breadth first](./tree-breadth-first/README.md) |
 | 18 | [repeated hash table](./tree-breadth-first/README.md) |
+| 19 | [hashmap left join](./hashmap-left-join/README.md) |
