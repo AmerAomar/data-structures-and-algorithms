@@ -71,6 +71,25 @@ class Graph:
 
         return f"${cost}"
 
+    def depth_first(self, starting_vertex):
+        '''
+        Return a list containing the vertices in a depth-first pre-order traversal order.
+        '''
+        visited = set()
+        result = []
+
+        def dfs(vertex):
+            visited.add(vertex)
+            result.append(vertex)
+            for neighbor in self.get_neighbors(vertex):
+                if neighbor not in visited:
+                    dfs(neighbor)
+
+        if starting_vertex not in self.vertices:
+            raise ValueError("Vertex not in graph")
+
+        dfs(starting_vertex)
+        return result
 
 if __name__ == "__main__":
     graph = Graph()
@@ -90,6 +109,10 @@ if __name__ == "__main__":
     graph.add_edge("Narnia", "Naboo", 35)
     print(graph.breadth_first("Pandora"))
     print(graph.breadth_first("Arendelle"))
+    print(graph.depth_first("Pandora"))
+    print(graph.depth_first("Arendelle"))
+
+    print("*********************************************************************")
 
     graph2 = Graph()
     graph2.add_vertex("Pandora")
@@ -111,3 +134,25 @@ if __name__ == "__main__":
     print(graph2.business_trip(["Naboo", "Pandora"]))
     print(graph2.business_trip(["Narnia", "Arendelle", "Naboo"]))
     print(graph2.business_trip(["Arendelle", "Metroville", "Monstropolis", "Naboo", "Narnia"]))
+
+    print(graph2.depth_first("Pandora"))
+    print(graph2.depth_first("Arendelle"))
+
+    print("*********************************************************************")
+
+    graph3 = Graph()
+    graph3.add_vertex("A")
+    graph3.add_vertex("B")
+    graph3.add_vertex("C")
+    graph3.add_vertex("D")
+    graph3.add_vertex("E")
+    graph3.add_vertex("F")
+    graph3.add_vertex("G")
+    graph3.add_edge("A", "B", 1)
+    graph3.add_edge("A", "C", 1)
+    graph3.add_edge("B", "D", 1)
+    graph3.add_edge("B", "E", 1)
+    graph3.add_edge("C", "F", 1)
+    graph3.add_edge("C", "G", 1)
+
+    print(graph3.depth_first("A"))
